@@ -1,1 +1,98 @@
+a#ld-focus-mode-course-heading {
+    pointer-events: none;
+}
+	
+.ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a:first-of-type {
+    display: none;
+}
 
+.ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a:last-of-type {
+    font-weight: bold;
+    border-radius: 5px !important;
+}
+
+.ld-alert-messages {
+    color: #585647;
+    font-weight: 600;
+}
+
+.ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items {
+    top: 105% !important;
+}
+
+.site-header {
+    display: none;
+}
+.site-footer {
+    display: none;
+}
+
+.error404 #page {
+    display: none;
+}
+/*learndash course page code*/
+.ld-course-status.ld-course-status-enrolled {
+    display: none !important;
+}
+.ld-item-list.ld-lesson-list {
+    display: none !important;
+}
+.ld-course-status {
+    display: none !important;
+}
+
+
+/* Hide the vertical scroll from lessons */
+
+.learndash-wrapper .ld-focus-sidebar-collapsed .ld-focus-sidebar .ld-focus-sidebar-wrapper {
+	overflow-y: hidden;
+}
+
+/* Change the colour of the answered quiz layout */
+
+
+.learndash-wrapper .ld-focus .ld-course-navigation .ld-lesson-item-preview .ld-expand-button {
+	display: none;
+}
+
+.learndash-wrapper .ld-focus .ld-focus-main .ld-focus-content h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #27aee1;
+}
+
+
+/* Customise Mark as complete button
+ */
+
+.learndash-wrapper .ld-focus .ld-focus-header .sfwd-mark-complete:after {
+	 margin-right: 10%;
+	color: white !important;
+}
+
+.learndash-wrapper .ld-focus .ld-focus-header .ld-content-action .sfwd-mark-complete input[type=submit] {
+    height: 51px;
+    border-radius: 0;
+    background: #019e7c !important;
+    color: white !important;
+    font-size: 95%;
+    font-weight: 700;
+    transition: .15s all ease;
+}
+
+.learndash-wrapper .ld-focus .ld-focus-header .ld-content-action .sfwd-mark-complete input[type=submit]:hover {
+    background: #077059 !important;
+    opacity: 1;
+}
+
+/* Hide those weird ass buttons below the video */
+
+.ld-content-action:nth-of-type(3) {
+    display: none;
+}
+
+/* Hide border below the video */
+
+.learndash-wrapper .ld-focus-content .ld-content-actions {
+	display: none;
+}
