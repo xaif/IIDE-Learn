@@ -1,0 +1,31 @@
+// Parth's CSS'
+
+.learndash-wrapper .ld-button:not(.ld-button-reverse):not(.learndash-link-previous-incomplete):not(.ld-button-transparent) {
+    color: #27aae1;
+    background-color: transparent !important;
+}
+
+.learndash-wrapper .learndash_mark_complete_button {
+    color: #039f7c;
+    background-color: transparent !important;
+}
+
+.learndash-wrapper .sfwd-mark-complete::after {
+    color: #039f7c;
+}
+
+.learndash-wrapper .learndash_mark_complete_button:hover {
+    color: #039f7c;
+    background-color: transparent !important;
+}
+.learndash-wrapper .sfwd-mark-complete:hover::after {
+    color: #039f7c;
+}
+.ld-content-actions:nth-of-type(4) {
+    display: none !important;
+}
+
+.ld-progress-wrap {
+    width: 35% !important;
+    margin-left: auto;
+}
