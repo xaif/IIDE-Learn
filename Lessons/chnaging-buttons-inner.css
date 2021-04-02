@@ -1,0 +1,27 @@
+<style>
+h1 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #27aee1;
+}
+p.titles {
+    text-align: right;
+    margin-top: -40px;
+}
+.learndash-wrapper .ld-content-actions {
+border-top: 0px !Important;
+}
+p {
+    margin-bottom: 0px !important;
+}
+.ld-content-action {
+    margin-top: -10%;
+}
+
+@media (max-width: 640px){
+.learndash-wrapper .ld-focus .ld-focus-main .ld-focus-content, .learndash-wrapper .ld-focus.ld-focus-sidebar-collapsed .ld-focus-main .ld-focus-content {
+    padding: 5% 1.5em !important;
+}
+}
+
+</style>
