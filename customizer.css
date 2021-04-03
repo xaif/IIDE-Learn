@@ -6,6 +6,22 @@ a#ld-focus-mode-course-heading {
     display: none;
 }
 
+.ld-focus-content {
+    max-width: 1000px !important;
+    padding-top: 70px !important;
+}
+
+.ld-status-icon {
+    width: 20px !important;
+    height: 20px !important;
+    flex: 0 0 20px !important;
+}
+
+
+.ld-lesson-topic-list {
+    display: none;
+}
+
 .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a:last-of-type {
     font-weight: bold;
     border-radius: 5px !important;
@@ -30,6 +46,7 @@ a#ld-focus-mode-course-heading {
 .error404 #page {
     display: none;
 }
+
 /*learndash course page code*/
 .ld-course-status.ld-course-status-enrolled {
     display: none !important;
@@ -42,23 +59,16 @@ a#ld-focus-mode-course-heading {
 }
 
 
-/* Hide the vertical scroll from lessons */
-
-.learndash-wrapper .ld-focus-sidebar-collapsed .ld-focus-sidebar .ld-focus-sidebar-wrapper {
-	overflow-y: hidden;
-}
-
 /* Change the colour of the answered quiz layout */
 
-
-.learndash-wrapper .ld-focus .ld-course-navigation .ld-lesson-item-preview .ld-expand-button {
-	display: none;
+span.ld-expand-button.ld-button-alternate.ld-expanded {
+    display: none;
 }
 
 .learndash-wrapper .ld-focus .ld-focus-main .ld-focus-content h1 {
     font-size: 24px;
     font-weight: 600;
-    color: #27aee1;
+    color: #3d3d3d;
 }
 
 
@@ -85,14 +95,19 @@ a#ld-focus-mode-course-heading {
     opacity: 1;
 }
 
-/* Hide those weird ass buttons below the video */
-
-.ld-content-action:nth-of-type(3) {
-    display: none;
+a.gb-button.gb-button-80ddce1a {
+    border-style: hidden;
 }
 
-/* Hide border below the video */
+/* Removing extra p tag from quiz
+ */
+p.wpProQuiz_clear {
+    display: none !important;
+}
 
-.learndash-wrapper .ld-focus-content .ld-content-actions {
-	display: none;
+/* Changing the CSS of the Quiz */
+
+.lqc-plugin .learndash .wpProQuiz_content .wpProQuiz_question, p.wpProQuiz_AnswerMessage
+{
+	font-size: 14px;
 }
