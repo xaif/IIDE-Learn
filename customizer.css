@@ -17,14 +17,21 @@ a#ld-focus-mode-course-heading {
     flex: 0 0 20px !important;
 }
 
-
-.ld-lesson-topic-list {
-    display: none;
+.ld-alert.ld-alert-success.ld-alert-certificate {
+    display: none !important;
 }
 
 .ld-focus .ld-focus-header .ld-user-menu .ld-user-menu-items a:last-of-type {
     font-weight: bold;
-    border-radius: 5px !important;
+}
+
+a.ld-focus-menu-link {
+    font-weight: bold !important;
+    border-radius: 5px 0px !important;
+}
+
+span.ld-lesson-section-heading {
+    text-transform: uppercase;
 }
 
 .ld-alert-messages {
@@ -58,9 +65,6 @@ a#ld-focus-mode-course-heading {
     display: none !important;
 }
 
-
-/* Change the colour of the answered quiz layout */
-
 span.ld-expand-button.ld-button-alternate.ld-expanded {
     display: none;
 }
@@ -70,7 +74,6 @@ span.ld-expand-button.ld-button-alternate.ld-expanded {
     font-weight: 600;
     color: #3d3d3d;
 }
-
 
 /* Customise Mark as complete button
  */
@@ -95,19 +98,78 @@ span.ld-expand-button.ld-button-alternate.ld-expanded {
     opacity: 1;
 }
 
-a.gb-button.gb-button-80ddce1a {
-    border-style: hidden;
+.normal {
+    background: #fff;
+    border: #27aee178;
+    border-style: solid;
 }
 
+.dialog-box-content {
+    font-weight: 500;
+    white-space: normal;
+    text-align: center;
+}
+
+@media (max-width: 768px) {
+section#btn-dialogBox {
+    width: 90% !important;
+    margin-left: -170px !important;
+}
+}
 /* Removing extra p tag from quiz
  */
 p.wpProQuiz_clear {
     display: none !important;
 }
 
-/* Changing the CSS of the Quiz */
 
-.lqc-plugin .learndash .wpProQuiz_content .wpProQuiz_question, p.wpProQuiz_AnswerMessage
+@media not screen and (max-width: 768px)
 {
-	font-size: 14px;
+span.ld-profile-avatar {
+    margin-left: auto !important;
+}
+span.ld-text.ld-user-welcome-text {
+    margin-left: auto !important;
+}
+.learndash-wrapper .ld-focus .ld-focus-header .ld-progress-wrap {
+    width: 40%;
+    margin-left: auto;
+}
+.learndash-wrapper .ld-focus .ld-focus-header .ld-user-menu {
+    flex: 0 0 250px;
+}
+}
+.ld-content-actions {
+    border: none !important;
+    padding-top: 0px !important;
+}
+.ld-content-actions:nth-of-type(4) {
+    display: none !important;
+}
+.learndash-wrapper .ld-button:not(.ld-button-reverse):not(.learndash-link-previous-incomplete):not(.ld-button-transparent) {
+    background-color: transparent !important;
+    color: #27aae1 !important;
+	margin: inherit;
+}
+.learndash-wrapper .ld-button:not(.ld-button-reverse):not(.learndash-link-previous-incomplete):not(.ld-button-transparent):hover {
+    background-color: #27aae1 !important;
+    color: #fff !important;
+}
+.learndash-wrapper .learndash_mark_complete_button {
+    background-color: transparent !important;
+    color: #009e7c !important;
+	padding-right: 1.5em;
+}
+.learndash-wrapper .learndash_mark_complete_button:hover {
+    background-color: #009e7c !important;
+    color: #fff !important;
+}
+.learndash-wrapper .sfwd-mark-complete:after {
+    display: none !important;
+}
+.learndash-wrapper .learndash_mark_complete_button[disabled] {
+    background-color: transparent !important;
+}
+.learndash-wrapper .learndash_mark_complete_button[disabled]:hover {
+    color: #009e7c !important;
 }
