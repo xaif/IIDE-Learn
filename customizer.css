@@ -173,3 +173,13 @@ span.ld-text.ld-user-welcome-text {
 .learndash-wrapper .learndash_mark_complete_button[disabled]:hover {
     color: #009e7c !important;
 }
+
+/* Hide Remember Me from login page */
+
+.login-remember {
+    text-align: left;
+    margin: 0px!important;
+    display: none;
+    width: 100%;
+    font-size: 15px;
+}
